@@ -75,6 +75,16 @@
     z-index: 5;
 }
 
+.app__navbar-smallscreen_overlay .overlay__close {
+    font-size: 27px;
+    color: var(--color-golden);
+    cursor: pointer;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
 .app__navbar-smallscreen_links {
     list-style: none;
 }
@@ -86,16 +96,6 @@
     font-size: 2rem;
     text-align: center;
     font-family: var(--font-base);
-}
-
-.app__navbar-smallscreen_overlay .overlay__close {
-    font-size: 27px;
-    color: var(--color-golden);
-    cursor: pointer;
-
-    position: absolute;
-    top: 20px;
-    right: 20px;
 }
 
 .app__navbar-smallscreen_links li:hover {
